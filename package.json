@@ -1,0 +1,24 @@
+{
+  "name": "msccs-t23-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines":{
+    "node": "8.10.0",
+    "npm": "3.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2417455/msccs-t23-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2417455/msccs-t23-frontend/issues"
+  },
+  "homepage": "https://github.com/2417455/msccs-t23-frontend#readme"
+}
