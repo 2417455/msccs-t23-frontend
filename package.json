@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/2417455/msccs-t23-frontend#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
   }
 }
