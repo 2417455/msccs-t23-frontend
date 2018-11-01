@@ -1,6 +1,9 @@
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT
+const config = require("./config");
+
+db = config.database;
 
 app.get("/", (req, res) => {
     res.send({ hello: "world test" });
@@ -9,7 +12,7 @@ app.get("/", (req, res) => {
 
 var MongoClient = require('mongodb').MongoClient
 
-MongoClient.connect('mongodb+srv://Admin_1:glasgowcom@cluster0-0yvu9.gcp.mongodb.net/test?retryWrites=true', { useNewUrlParser: true }, function (err, client) {
+MongoClient.connect(db.uri, { useNewUrlParser: true }, function (err, client) {
   if (err) throw err
 
   var db = client.db('Helpme')
